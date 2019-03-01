@@ -24,6 +24,7 @@ public class Main {
             System.out.println("Error, " + dpi + "contains invalid characters.");
         }else{
             ret = true;
+            persona.setDpi(dpi);
         }
         return ret;
     }
@@ -38,6 +39,7 @@ public class Main {
             System.out.println("Error, " + edad + "is too big.");
         }else{
             ret = true;
+            persona.setEdad(edad);
         }
         return  ret;
     }
@@ -55,6 +57,7 @@ public class Main {
             System.out.println("Error, " + correo + " Invalid email address");
         }else{
             ret = true;
+            persona.setCorreo(correo);
         }
         return ret;
     }
@@ -69,6 +72,7 @@ public class Main {
             System.out.println("Error, " + direccion + " is to ambiguous.");
         }else{
             ret = true;
+            persona.setDireccion(direccion);
         }
         return ret;
     }
@@ -84,6 +88,7 @@ public class Main {
             System.out.println("Error, " + telefono + "is not a phone number.");
         }else{
             ret = true;
+            persona.setTelefono(telefono);
         }
         return ret;
     }
