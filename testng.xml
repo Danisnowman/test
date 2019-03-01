@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Example" preserve-order="true" allow-return-values="true" verbose="1">
+    <test name="Example">
+        <groups>
+            <run>
+                <exclude name="brokenTests" />
+                <include name="testing" />
+                <include name="testing2"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="Testing"/>
+        </classes>
+    </test>
+
+    <listeners>
+        <listener class-name="ListenerSuite"/>
+        <listener class-name="ListenerTest"/>
+    </listeners>
+</suite>
