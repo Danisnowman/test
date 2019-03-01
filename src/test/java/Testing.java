@@ -2,7 +2,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 public class Testing extends init{
-    @Test(groups = {"testing"}, description = "Description test f ")
+    /*@Test(groups = {"testing"}, description = "Description test f ")
     public void f(){
         System.out.println("holas");
         Assert.assertEquals(1, 2, "rip");
@@ -12,5 +12,13 @@ public class Testing extends init{
     public void fee(){
         System.out.println("holas");
         Assert.assertEquals(1, 2, "rip");
-    }
+    }*/
+
+    /*@Test(groups = {"testing"}, description = "Test pedirNombre ")
+    public void pedirNombreTest(){
+        System.out.println("pedir nombre");
+        Main main = new Main();
+
+        Assert.assertEquals(1, 2, "rip");
+    }*/
 }

@@ -11,6 +11,7 @@
         </groups>
         <classes>
             <class name="Testing"/>
+            <class name="dataProvider"/>
         </classes>
     </test>
 
